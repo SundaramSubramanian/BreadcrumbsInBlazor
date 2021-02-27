@@ -98,13 +98,15 @@ using MudBlazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 3 "D:\Projects\BreadcrumbsInBlazor\BreadcrumbsInBlazor\Pages\Index.razor"
+#line 5 "D:\Projects\BreadcrumbsInBlazor\BreadcrumbsInBlazor\Pages\Index.razor"
        
     private List<BreadcrumbItem> _items = new List<BreadcrumbItem>
 {
-        new BreadcrumbItem("Home", href: "/fetchdata"),
+        new BreadcrumbItem("Home", href: "#"),
         new BreadcrumbItem("Link 1", href: "#"),
-        new BreadcrumbItem("Link 2", href: null, disabled: true)
+        new BreadcrumbItem("Link 2", href: "#"),
+        new BreadcrumbItem("Link 3", href: "#"),
+        new BreadcrumbItem("Link 4", href: null, disabled: true)
     };
 
 #line default
